@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A05EE642301FADF00F08346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05EE632301FADF00F08346 /* AppDelegate.swift */; };
+		3A05EE662301FADF00F08346 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3A05EE652301FADF00F08346 /* GameScene.sks */; };
+		3A05EE682301FADF00F08346 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3A05EE672301FADF00F08346 /* Actions.sks */; };
+		3A05EE6A2301FADF00F08346 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05EE692301FADF00F08346 /* GameScene.swift */; };
+		3A05EE6C2301FADF00F08346 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05EE6B2301FADF00F08346 /* GameViewController.swift */; };
+		3A05EE6F2301FADF00F08346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A05EE6D2301FADF00F08346 /* Main.storyboard */; };
+		3A05EE712301FAE000F08346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A05EE702301FAE000F08346 /* Assets.xcassets */; };
+		3A05EE742301FAE000F08346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A05EE722301FAE000F08346 /* LaunchScreen.storyboard */; };
+		3A05EE7F2301FAE000F08346 /* PencilitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05EE7E2301FAE000F08346 /* PencilitaTests.swift */; };
+		3A05EE8A2301FAE000F08346 /* PencilitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05EE892301FAE000F08346 /* PencilitaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A05EE7B2301FAE000F08346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A05EE582301FADF00F08346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A05EE5F2301FADF00F08346;
+			remoteInfo = Pencilita;
+		};
+		3A05EE862301FAE000F08346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A05EE582301FADF00F08346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A05EE5F2301FADF00F08346;
+			remoteInfo = Pencilita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A05EE602301FADF00F08346 /* Pencilita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pencilita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A05EE632301FADF00F08346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A05EE652301FADF00F08346 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3A05EE672301FADF00F08346 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3A05EE692301FADF00F08346 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3A05EE6B2301FADF00F08346 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3A05EE6E2301FADF00F08346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A05EE702301FAE000F08346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A05EE732301FAE000F08346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A05EE752301FAE000F08346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A05EE7A2301FAE000F08346 /* PencilitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A05EE7E2301FAE000F08346 /* PencilitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilitaTests.swift; sourceTree = "<group>"; };
+		3A05EE802301FAE000F08346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A05EE852301FAE000F08346 /* PencilitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A05EE892301FAE000F08346 /* PencilitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilitaUITests.swift; sourceTree = "<group>"; };
+		3A05EE8B2301FAE000F08346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A05EE5D2301FADF00F08346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A05EE772301FAE000F08346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A05EE822301FAE000F08346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A05EE572301FADF00F08346 = {
+			isa = PBXGroup;
+			children = (
+				3A05EE622301FADF00F08346 /* Pencilita */,
+				3A05EE7D2301FAE000F08346 /* PencilitaTests */,
+				3A05EE882301FAE000F08346 /* PencilitaUITests */,
+				3A05EE612301FADF00F08346 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A05EE612301FADF00F08346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A05EE602301FADF00F08346 /* Pencilita.app */,
+				3A05EE7A2301FAE000F08346 /* PencilitaTests.xctest */,
+				3A05EE852301FAE000F08346 /* PencilitaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A05EE622301FADF00F08346 /* Pencilita */ = {
+			isa = PBXGroup;
+			children = (
+				3A05EE632301FADF00F08346 /* AppDelegate.swift */,
+				3A05EE652301FADF00F08346 /* GameScene.sks */,
+				3A05EE672301FADF00F08346 /* Actions.sks */,
+				3A05EE692301FADF00F08346 /* GameScene.swift */,
+				3A05EE6B2301FADF00F08346 /* GameViewController.swift */,
+				3A05EE6D2301FADF00F08346 /* Main.storyboard */,
+				3A05EE702301FAE000F08346 /* Assets.xcassets */,
+				3A05EE722301FAE000F08346 /* LaunchScreen.storyboard */,
+				3A05EE752301FAE000F08346 /* Info.plist */,
+			);
+			path = Pencilita;
+			sourceTree = "<group>";
+		};
+		3A05EE7D2301FAE000F08346 /* PencilitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A05EE7E2301FAE000F08346 /* PencilitaTests.swift */,
+				3A05EE802301FAE000F08346 /* Info.plist */,
+			);
+			path = PencilitaTests;
+			sourceTree = "<group>";
+		};
+		3A05EE882301FAE000F08346 /* PencilitaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A05EE892301FAE000F08346 /* PencilitaUITests.swift */,
+				3A05EE8B2301FAE000F08346 /* Info.plist */,
+			);
+			path = PencilitaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A05EE5F2301FADF00F08346 /* Pencilita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A05EE8E2301FAE000F08346 /* Build configuration list for PBXNativeTarget "Pencilita" */;
+			buildPhases = (
+				3A05EE5C2301FADF00F08346 /* Sources */,
+				3A05EE5D2301FADF00F08346 /* Frameworks */,
+				3A05EE5E2301FADF00F08346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pencilita;
+			productName = Pencilita;
+			productReference = 3A05EE602301FADF00F08346 /* Pencilita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A05EE792301FAE000F08346 /* PencilitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A05EE912301FAE000F08346 /* Build configuration list for PBXNativeTarget "PencilitaTests" */;
+			buildPhases = (
+				3A05EE762301FAE000F08346 /* Sources */,
+				3A05EE772301FAE000F08346 /* Frameworks */,
+				3A05EE782301FAE000F08346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A05EE7C2301FAE000F08346 /* PBXTargetDependency */,
+			);
+			name = PencilitaTests;
+			productName = PencilitaTests;
+			productReference = 3A05EE7A2301FAE000F08346 /* PencilitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A05EE842301FAE000F08346 /* PencilitaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A05EE942301FAE000F08346 /* Build configuration list for PBXNativeTarget "PencilitaUITests" */;
+			buildPhases = (
+				3A05EE812301FAE000F08346 /* Sources */,
+				3A05EE822301FAE000F08346 /* Frameworks */,
+				3A05EE832301FAE000F08346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A05EE872301FAE000F08346 /* PBXTargetDependency */,
+			);
+			name = PencilitaUITests;
+			productName = PencilitaUITests;
+			productReference = 3A05EE852301FAE000F08346 /* PencilitaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A05EE582301FADF00F08346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Rike-Benjamin Schuppner";
+				TargetAttributes = {
+					3A05EE5F2301FADF00F08346 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3A05EE792301FAE000F08346 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3A05EE5F2301FADF00F08346;
+					};
+					3A05EE842301FAE000F08346 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3A05EE5F2301FADF00F08346;
+					};
+				};
+			};
+			buildConfigurationList = 3A05EE5B2301FADF00F08346 /* Build configuration list for PBXProject "Pencilita" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A05EE572301FADF00F08346;
+			productRefGroup = 3A05EE612301FADF00F08346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A05EE5F2301FADF00F08346 /* Pencilita */,
+				3A05EE792301FAE000F08346 /* PencilitaTests */,
+				3A05EE842301FAE000F08346 /* PencilitaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A05EE5E2301FADF00F08346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A05EE6F2301FADF00F08346 /* Main.storyboard in Resources */,
+				3A05EE662301FADF00F08346 /* GameScene.sks in Resources */,
+				3A05EE712301FAE000F08346 /* Assets.xcassets in Resources */,
+				3A05EE742301FAE000F08346 /* LaunchScreen.storyboard in Resources */,
+				3A05EE682301FADF00F08346 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A05EE782301FAE000F08346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A05EE832301FAE000F08346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A05EE5C2301FADF00F08346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A05EE6A2301FADF00F08346 /* GameScene.swift in Sources */,
+				3A05EE6C2301FADF00F08346 /* GameViewController.swift in Sources */,
+				3A05EE642301FADF00F08346 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A05EE762301FAE000F08346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A05EE7F2301FAE000F08346 /* PencilitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A05EE812301FAE000F08346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A05EE8A2301FAE000F08346 /* PencilitaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A05EE7C2301FAE000F08346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A05EE5F2301FADF00F08346 /* Pencilita */;
+			targetProxy = 3A05EE7B2301FAE000F08346 /* PBXContainerItemProxy */;
+		};
+		3A05EE872301FAE000F08346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A05EE5F2301FADF00F08346 /* Pencilita */;
+			targetProxy = 3A05EE862301FAE000F08346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A05EE6D2301FADF00F08346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A05EE6E2301FADF00F08346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A05EE722301FAE000F08346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A05EE732301FAE000F08346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A05EE8C2301FAE000F08346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A05EE8D2301FAE000F08346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A05EE8F2301FAE000F08346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPDFQ35ADT;
+				INFOPLIST_FILE = Pencilita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.debilski.Pencilita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A05EE902301FAE000F08346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPDFQ35ADT;
+				INFOPLIST_FILE = Pencilita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.debilski.Pencilita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A05EE922301FAE000F08346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPDFQ35ADT;
+				INFOPLIST_FILE = PencilitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.debilski.PencilitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pencilita.app/Pencilita";
+			};
+			name = Debug;
+		};
+		3A05EE932301FAE000F08346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPDFQ35ADT;
+				INFOPLIST_FILE = PencilitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.debilski.PencilitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pencilita.app/Pencilita";
+			};
+			name = Release;
+		};
+		3A05EE952301FAE000F08346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPDFQ35ADT;
+				INFOPLIST_FILE = PencilitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.debilski.PencilitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pencilita;
+			};
+			name = Debug;
+		};
+		3A05EE962301FAE000F08346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPDFQ35ADT;
+				INFOPLIST_FILE = PencilitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.debilski.PencilitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pencilita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A05EE5B2301FADF00F08346 /* Build configuration list for PBXProject "Pencilita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A05EE8C2301FAE000F08346 /* Debug */,
+				3A05EE8D2301FAE000F08346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A05EE8E2301FAE000F08346 /* Build configuration list for PBXNativeTarget "Pencilita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A05EE8F2301FAE000F08346 /* Debug */,
+				3A05EE902301FAE000F08346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A05EE912301FAE000F08346 /* Build configuration list for PBXNativeTarget "PencilitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A05EE922301FAE000F08346 /* Debug */,
+				3A05EE932301FAE000F08346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A05EE942301FAE000F08346 /* Build configuration list for PBXNativeTarget "PencilitaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A05EE952301FAE000F08346 /* Debug */,
+				3A05EE962301FAE000F08346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A05EE582301FADF00F08346 /* Project object */;
+}
