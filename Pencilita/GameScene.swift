@@ -9,10 +9,20 @@
 import SpriteKit
 import GameplayKit
 
+
+import SwiftyZeroMQ
+
 class GameScene: SKScene {
     
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
+    
+    private var zmqContext : SwiftyZeroMQ.Context?
+    private var zmqSocket : SwiftyZeroMQ.Socket?
+    private var zmqPoller : SwiftyZeroMQ.Poller?
+    
+    private var bot: Bot?
+    
     
     override func didMove(to view: SKView) {
         
@@ -85,5 +95,59 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+        
+        do {
+            // Define a TCP endpoint along with the text that we are going to send/recv
+            let endpoint     = "tcp://0.0.0.0:5555"
+            
+            if let sock = self.zmqSocket {
+                if let socks = try self.zmqPoller?.poll(timeout: 10) {
+                
+                for subscriber in socks.keys {
+
+                    if socks[subscriber] == SwiftyZeroMQ.PollFlags.pollIn {
+                        
+                        if let msg = try subscriber.recv(bufferLength: 60000, options: .dontWait) {
+                            print(msg)
+                            let jsonDecoder = JSONDecoder()
+                            let bot = try jsonDecoder.decode(Bot.self, from: msg.data(using: .utf8)!)
+                            print(bot)
+                            self.bot = bot
+                        }
+                        
+                    } else {
+                        print("\(sock): Nothing")
+                    }
+                }
+                print("---")
+                    
+                }
+                
+
+            } else {
+                self.zmqContext = try SwiftyZeroMQ.Context()
+                self.zmqSocket = try self.zmqContext?.socket(.pair)
+                self.zmqPoller = SwiftyZeroMQ.Poller()
+                if let sock = self.zmqSocket {
+                    try self.zmqPoller?.register(socket: sock, flags: .pollIn)
+                    try sock.bind(endpoint)
+                }
+            }
+            
+        } catch {
+            print(error)
+        }
+
+        
+        if let bot = self.bot {
+            for point in bot.walls {
+                let shapeNode = SKShapeNode(circleOfRadius: 1.0 * 4)
+                shapeNode.fillColor = SKColor.blue
+                shapeNode.position = CGPoint(x: point.x * 4, y: point.y * 4)
+                self.addChild(shapeNode)
+            }
+        }
+        
+        
     }
 }

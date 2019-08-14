@@ -17,6 +17,9 @@
 		3A05EE742301FAE000F08346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A05EE722301FAE000F08346 /* LaunchScreen.storyboard */; };
 		3A05EE7F2301FAE000F08346 /* PencilitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05EE7E2301FAE000F08346 /* PencilitaTests.swift */; };
 		3A05EE8A2301FAE000F08346 /* PencilitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05EE892301FAE000F08346 /* PencilitaUITests.swift */; };
+		3AB1F7162302019D006605DE /* SwiftyZeroMQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB1F7092302018D006605DE /* SwiftyZeroMQ.framework */; };
+		3AB1F7172302019D006605DE /* SwiftyZeroMQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB1F7092302018D006605DE /* SwiftyZeroMQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3AEA7D2723035E3D00535543 /* Pelita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA7D2623035E3D00535543 /* Pelita.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,77 @@
 			remoteGlobalIDString = 3A05EE5F2301FADF00F08346;
 			remoteInfo = Pencilita;
 		};
+		3AB1F7082302018D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D84E331DB637E800AD9652;
+			remoteInfo = "SwiftyZeroMQ-iOS";
+		};
+		3AB1F70A2302018D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D84E3C1DB637E800AD9652;
+			remoteInfo = "SwiftyZeroMQ-iOS Tests";
+		};
+		3AB1F70C2302018D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04AA85E01DC9EF0E0026AE5E;
+			remoteInfo = "SwiftyZeroMQ-macOS";
+		};
+		3AB1F70E2302018D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04AA85E81DC9EF0E0026AE5E;
+			remoteInfo = "SwiftyZeroMQ-macOSTests";
+		};
+		3AB1F7102302018D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04AA857F1DC9E5770026AE5E;
+			remoteInfo = "SwiftyZeroMQ-tvOS";
+		};
+		3AB1F7122302018D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04AA85871DC9E5780026AE5E;
+			remoteInfo = "SwiftyZeroMQ-tvOSTests";
+		};
+		3AB1F7142302018D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04AA85651DC9E1390026AE5E;
+			remoteInfo = "SwiftyZeroMQ-watchOS";
+		};
+		3AB1F7182302019D006605DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D84E321DB637E800AD9652;
+			remoteInfo = "SwiftyZeroMQ-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AB1F71A2302019D006605DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3AB1F7172302019D006605DE /* SwiftyZeroMQ.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3A05EE602301FADF00F08346 /* Pencilita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pencilita.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +126,8 @@
 		3A05EE852301FAE000F08346 /* PencilitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A05EE892301FAE000F08346 /* PencilitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilitaUITests.swift; sourceTree = "<group>"; };
 		3A05EE8B2301FAE000F08346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyZeroMQ.xcodeproj; path = ../SwiftyZeroMQ/SwiftyZeroMQ.xcodeproj; sourceTree = "<group>"; };
+		3AEA7D2623035E3D00535543 /* Pelita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelita.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB1F7162302019D006605DE /* SwiftyZeroMQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +163,7 @@
 				3A05EE7D2301FAE000F08346 /* PencilitaTests */,
 				3A05EE882301FAE000F08346 /* PencilitaUITests */,
 				3A05EE612301FADF00F08346 /* Products */,
+				3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +189,7 @@
 				3A05EE702301FAE000F08346 /* Assets.xcassets */,
 				3A05EE722301FAE000F08346 /* LaunchScreen.storyboard */,
 				3A05EE752301FAE000F08346 /* Info.plist */,
+				3AEA7D2623035E3D00535543 /* Pelita.swift */,
 			);
 			path = Pencilita;
 			sourceTree = "<group>";
@@ -134,6 +212,20 @@
 			path = PencilitaUITests;
 			sourceTree = "<group>";
 		};
+		3AB1F6FF2302018C006605DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB1F7092302018D006605DE /* SwiftyZeroMQ.framework */,
+				3AB1F70B2302018D006605DE /* SwiftyZeroMQ-iOS Tests.xctest */,
+				3AB1F70D2302018D006605DE /* SwiftyZeroMQ.framework */,
+				3AB1F70F2302018D006605DE /* SwiftyZeroMQ-macOSTests.xctest */,
+				3AB1F7112302018D006605DE /* SwiftyZeroMQ.framework */,
+				3AB1F7132302018D006605DE /* SwiftyZeroMQ-tvOSTests.xctest */,
+				3AB1F7152302018D006605DE /* SwiftyZeroMQ.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,10 +236,12 @@
 				3A05EE5C2301FADF00F08346 /* Sources */,
 				3A05EE5D2301FADF00F08346 /* Frameworks */,
 				3A05EE5E2301FADF00F08346 /* Resources */,
+				3AB1F71A2302019D006605DE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3AB1F7192302019D006605DE /* PBXTargetDependency */,
 			);
 			name = Pencilita;
 			productName = Pencilita;
@@ -224,6 +318,12 @@
 			mainGroup = 3A05EE572301FADF00F08346;
 			productRefGroup = 3A05EE612301FADF00F08346 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3AB1F6FF2302018C006605DE /* Products */;
+					ProjectRef = 3AB1F6FE2302018C006605DE /* SwiftyZeroMQ.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3A05EE5F2301FADF00F08346 /* Pencilita */,
@@ -232,6 +332,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3AB1F7092302018D006605DE /* SwiftyZeroMQ.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyZeroMQ.framework;
+			remoteRef = 3AB1F7082302018D006605DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AB1F70B2302018D006605DE /* SwiftyZeroMQ-iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyZeroMQ-iOS Tests.xctest";
+			remoteRef = 3AB1F70A2302018D006605DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AB1F70D2302018D006605DE /* SwiftyZeroMQ.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyZeroMQ.framework;
+			remoteRef = 3AB1F70C2302018D006605DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AB1F70F2302018D006605DE /* SwiftyZeroMQ-macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyZeroMQ-macOSTests.xctest";
+			remoteRef = 3AB1F70E2302018D006605DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AB1F7112302018D006605DE /* SwiftyZeroMQ.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyZeroMQ.framework;
+			remoteRef = 3AB1F7102302018D006605DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AB1F7132302018D006605DE /* SwiftyZeroMQ-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyZeroMQ-tvOSTests.xctest";
+			remoteRef = 3AB1F7122302018D006605DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3AB1F7152302018D006605DE /* SwiftyZeroMQ.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyZeroMQ.framework;
+			remoteRef = 3AB1F7142302018D006605DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3A05EE5E2301FADF00F08346 /* Resources */ = {
@@ -269,6 +421,7 @@
 			files = (
 				3A05EE6A2301FADF00F08346 /* GameScene.swift in Sources */,
 				3A05EE6C2301FADF00F08346 /* GameViewController.swift in Sources */,
+				3AEA7D2723035E3D00535543 /* Pelita.swift in Sources */,
 				3A05EE642301FADF00F08346 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +454,11 @@
 			isa = PBXTargetDependency;
 			target = 3A05EE5F2301FADF00F08346 /* Pencilita */;
 			targetProxy = 3A05EE862301FAE000F08346 /* PBXContainerItemProxy */;
+		};
+		3AB1F7192302019D006605DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyZeroMQ-iOS";
+			targetProxy = 3AB1F7182302019D006605DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -443,6 +601,7 @@
 		3A05EE8F2301FAE000F08346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QPDFQ35ADT;
@@ -461,6 +620,7 @@
 		3A05EE902301FAE000F08346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QPDFQ35ADT;
